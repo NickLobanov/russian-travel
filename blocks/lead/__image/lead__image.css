@@ -1,0 +1,17 @@
+.lead__image {
+    background-image: url(../../../images/foto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 554px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 375px) {
+    .lead__image {
+        min-height: 210px;
+    }
+}

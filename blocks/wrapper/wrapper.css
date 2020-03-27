@@ -1,0 +1,38 @@
+.wrapper {
+    width: 82%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+    .wrapper {
+        width: 92%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        width: 100%;
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .wrapper {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .wrapper {
+        width: 100%;
+        
+    }
+}
+

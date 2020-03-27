@@ -1,0 +1,14 @@
+.intto__text {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 375px) {
+    .intto__text {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 19px;
+    }
+}

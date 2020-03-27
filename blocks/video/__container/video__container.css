@@ -1,0 +1,13 @@
+.video__container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 375px) {
+    .video__container {
+        flex-direction: column;
+        min-height: 430px;
+    }
+}
