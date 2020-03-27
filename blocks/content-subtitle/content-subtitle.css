@@ -1,7 +1,7 @@
 .content-subtitle {
     width: 51%;
     margin: 0 auto;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 24px;
     line-height: 35px;
     text-align: center;
@@ -17,7 +17,6 @@
 
 @media screen and (max-width: 768px) {
     .content-subtitle {
-        font-weight: normal;
         font-size: 24px;
         line-height: 35px;
         width: 85%;
@@ -27,7 +26,6 @@
 
 @media screen and (max-width: 375px) {
     .content-subtitle {
-        font-weight: normal;
         font-size: 16px;
         line-height: 23px;
         width: 85%;
