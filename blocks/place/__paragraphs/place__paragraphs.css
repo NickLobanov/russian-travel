@@ -1,6 +1,5 @@
 .place__paragraphs {
-    width: 42%;
-    min-height: 420px;
+    width: 47%;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
@@ -11,10 +10,21 @@
     .place__paragraphs {
         font-size: 16px;
         line-height: 27px;
+        width: 46%;
     }
 }
 
+@media screen and (max-width: 717px) {
+    .place__paragraphs {
+        width: 40%;
+    }
+}
 
+@media screen and (max-width: 537px) {
+    .place__paragraphs {
+        width: 40%;
+    }
+}
 
 @media screen and (max-width: 375px) {
     .place__paragraphs {

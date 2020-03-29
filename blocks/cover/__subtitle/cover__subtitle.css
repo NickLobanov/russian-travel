@@ -1,4 +1,4 @@
-.cover-bg__subtitle {
+.cover__subtitle {
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
@@ -10,15 +10,21 @@
     text-align: center;
 }
 
-@media screen and (max-width: 1024px) {
-    .cover-bg__subtitle {
+@media screen and (max-width: 1280px) {
+    .cover__subtitle {
         width: 32%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__subtitle {
+        width: 35%;
        
     }
 }
 
 @media screen and (max-width: 768px) {
-    .cover-bg__subtitle {
+    .cover__subtitle {
         width: 46%;
         font-size: 18px;
         line-height: 26px;
@@ -26,8 +32,17 @@
     }
 }
 
+@media screen and (max-width: 560px) {
+    .cover__subtitle {
+        width: 65%;
+        font-size: 16px;
+        line-height: 24px;
+        right: 20%;
+    }
+}
+
 @media screen and (max-width: 375px) {
-    .cover-bg__subtitle {
+    .cover__subtitle {
         font-size: 14px;
         line-height: 17px;
         width: 85%;
@@ -36,9 +51,10 @@
 }
 
 @media screen and (max-width: 320px) {
-    .cover-bg__subtitle {
+    .cover__subtitle {
         font-weight: normal;
         font-size: 14px;
         line-height: 17px;
+        bottom: 10%;
     }
 }

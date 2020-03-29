@@ -4,18 +4,12 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    width: 54%
+    width: 100%
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 406px) {
     .footer__links {
-        width: 70%
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .footer__links {
-        width: 60%
+        justify-content: space-around;
     }
 }
 

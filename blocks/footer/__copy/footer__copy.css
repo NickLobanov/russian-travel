@@ -4,6 +4,13 @@
     line-height: 20px;
 }
 
+@media screen and (max-width: 406px) {
+    .footer__copy {
+        width: 100%;
+        font-size: 8px;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .footer__copy {
         width: 100%

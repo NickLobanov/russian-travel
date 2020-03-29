@@ -1,0 +1,10 @@
+@import url(_type_rect/cover__bg_type_rect.css);
+
+.cover__bg {
+    position: relative;
+    width: 100%;
+    color: #ffffff;   
+}
+
+
+

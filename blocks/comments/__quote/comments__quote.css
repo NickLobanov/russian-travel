@@ -2,6 +2,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+    margin: 0;
     margin-bottom: 24px;
     order: 2;
     width: 85%;
@@ -11,15 +12,18 @@
 @media screen and (max-width: 768px) {
     .comments__quote {
         margin-bottom: 0;
-        width: 94%;
+        width: 100%;
         text-align: left;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
     }
 }
 
 @media screen and (max-width: 375px) {
     .comments__quote {
         margin-bottom: 0;
-        width: 81%;
+        width: 100%;
         text-align: left;
     }
 }

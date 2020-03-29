@@ -1,5 +1,4 @@
 @import url(__links/header__links.css);
-@import url(__logo/header__logo.css);
 @import url(__link/header__link.css);
 @import url(__link/_underline/header__link_underline.css);
 @import url(__image/header__image.css);
@@ -10,6 +9,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 48px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -27,7 +27,6 @@
 @media screen and (max-width: 375px) {
     .header {
         width: 91%;
-        margin-bottom: 48px;
     }
 }
 

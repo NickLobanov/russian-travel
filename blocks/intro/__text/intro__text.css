@@ -1,11 +1,11 @@
-.intto__text {
+.intro__text {
     font-weight: 700;
     font-size: 13px;
     line-height: 20px;
 }
 
 @media screen and (max-width: 375px) {
-    .intto__text {
+    .intro__text {
         font-style: normal;
         font-size: 12px;
         line-height: 19px;

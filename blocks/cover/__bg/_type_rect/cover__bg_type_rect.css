@@ -1,0 +1,15 @@
+.cover__bg_type_rect::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #2a2c2f;
+    opacity: 0.3;
+    border-radius: 5px;
+}
+.cover__bg_type_rect:hover::before {
+    opacity: 0.8;
+    transition: 1s linear;
+}

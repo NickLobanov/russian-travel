@@ -9,3 +9,10 @@
     opacity: 0.7;
     transition: 1s linear;
 }
+
+@media screen and (max-width: 406px) {
+    .place__url {
+        font-size: 15px;
+        line-height: 27px;
+    }
+}

@@ -4,7 +4,33 @@
     margin-left: 30px;
     width: 42px;
     height: 42px;
-    background-image: url(../../../images/icon-play.png);
+    background-image: url(../../../images/icon_play.svg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+@media screen and (max-width: 580px) {
+    .video__item-play {
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .video__item-play {
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 23px;
+        height: 23px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .video__item-play {
+        margin-top: 30px;
+        margin-left: 30px;
+        width: 42px;
+        height: 42px;
+    }
 }

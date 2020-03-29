@@ -1,0 +1,15 @@
+.video__item_type_rect::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+.video__item_type_rect:hover::before {
+    opacity: 0.8;
+    transition: 1s linear;
+}

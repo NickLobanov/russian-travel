@@ -1,7 +1,3 @@
-@import url(_ivan/comments__image_ivan.css);
-@import url(_sergay/comments__image_sergay.css);
-@import url(_viktor/comments__image_viktor.css);
-
 .comments__image {
     width: 97px;
     height: 97px;

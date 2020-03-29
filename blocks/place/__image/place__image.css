@@ -1,6 +1,18 @@
 .place__image {
     width: 48%;
-    height: 48%;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .place__image {
+        height: 48%;
+    }
+}
+
+@media screen and (max-width: 537px) {
+    .place__image {
+        width: 44%;
+    }
 }
 
 @media screen and (max-width: 375px) {

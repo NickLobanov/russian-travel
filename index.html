@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="page/index.css">
-    <title>Document</title>
+    <title>russian-travel</title>
 </head>
 <body class="page">
     <div class="wrapper">
         <header class="header">
-            <a href="#"><img src="../russian-travel/images/__logo.svg" alt="Россия" class="header__image"></a>
+            <a href="#" class="header__link"><img src="../russian-travel/images/__logo.svg" alt="Россия" class="header__image"></a>
             <ul class="header__links">
                 <li><a href="#" class="header__link header__link_underline">Ru</a></li>
                 <li><a href="#" class="header__link">En</a></li>
@@ -19,10 +19,10 @@
         <section class="lead">
             <h1 class="lead__title">Путешествия по России</h1>
             <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-            <div class="lead__image">
-                <img src="images/road.png" alt="Дорога" class="lead__map">
-            </div>
-            <p class="lead__caption">ваша полка — верхняя</p>
+            <figure class="lead__figure">
+                <img src="images/__image.png" alt="Путь" class="lead__image">
+                <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+            </figure>
         </section>
 
         <section class="intro">
@@ -35,11 +35,11 @@
                 усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые
                 интересные места, достойные вашего отпуска.</p>
             <ul class="intro__list">
-                <li class="intro__text">Часовых поясов 11</li>
-                <li class="intro__text">Объектов природного наследия ЮНЕСКО 12</li>
-                <li class="intro__text">Объектов культурного наследия ЮНЕСКО 16</li>
-                <li class="intro__text">Природных заповедников 105</li>
-                <li class="intro__text">Аэропортов 241</li>   
+                <li class="intro__text">Часовых поясов <span class="intro__numbers">11</span></li>
+                <li class="intro__text">Объектов природного наследия ЮНЕСКО <span class="intro__numbers">12</span></li>
+                <li class="intro__text">Объектов культурного наследия ЮНЕСКО <span class="intro__numbers">16</span></li>
+                <li class="intro__text">Природных заповедников <span class="intro__numbers">105</span></li>
+                <li class="intro__text">Аэропортов <span class="intro__numbers">241</span></li>   
             </ul>
         </section>
 
@@ -62,8 +62,8 @@
             <div class="place">
                 <h2 class="place__title">Куршская коса</h2>
                 <div class="place__website">
-                    <p class="place__url-heading">URL</p>
-                    <p><a href="#" class="place__url">park-kosa.ru</a></p>
+                    <p class="place__url-heading">url</p>
+                    <a href="park-kosa.ru" class="place__url" target="_blank">park-kosa.ru</a>
                 </div>
                 <img src="./images/kosa.png" alt="Куршская коса" class="place__image">
                 <div class="place__paragraphs">
@@ -81,8 +81,8 @@
             <div class="place">
                 <h2 class="place__title">Кольский</h2>
                 <div class="place__website">
-                    <p class="place__url-heading">URL</p>
-                    <p><a href="#" class="place__url">National Geographic</a></p>
+                    <p class="place__url-heading">url</p>
+                    <a href="https://www.nationalgeographic.com/" class="place__url" target="_blank">National Geographic</a>
                 </div>
                 <img src="./images/kolsky.png" alt="Кольский" class="place__image">
                 <div class="place__paragraphs">
@@ -99,8 +99,8 @@
             <div class="place">
                 <h2 class="place__title">Алтай</h2>
                 <div class="place__website">
-                    <p class="place__url-heading">URL</p>
-                    <p><a href="#" class="place__url">Facebook</a></p>
+                    <p class="place__url-heading">url</p>
+                    <a href="http://fb.com" class="place__url" target="_blank">Facebook</a>
                 </div>
                 <img src="./images/altay.png" alt="Алтай" class="place__image">
                 <div class="place__paragraphs">
@@ -116,8 +116,8 @@
             <div class="place">
                     <h2 class="place__title">Зимний Байкал</h2>
                     <div class="place__website">
-                        <p class="place__url-heading">URL</p>
-                        <p><a href="#" class="place__url">https://vk.com/baikalmile</a></p>
+                        <p class="place__url-heading">url</p>
+                        <a href="https://vk.com/baikalmile" class="place__url" target="_blank">https://vk.com/baikalmile</a>
                     </div>
                 <img src="./images/winter-baikal.png" alt="Зимний байкал" class="place__image">
                 <div class="place__paragraphs">
@@ -134,8 +134,8 @@
             <div class="place">
                 <h2 class="place__title">Карелия</h2>
                 <div class="place__website">
-                    <p class="place__url-heading">URL</p>
-                    <p><a href="#" class="place__url">http://vodlozero.ru/</a></p>
+                    <p class="place__url-heading">url</p>
+                    <a href="http://vodlozero.ru/" class="place__url" target="_blank">http://vodlozero.ru/</a>
                 </div>
                 <img src="./images/karelia.png" alt="Карелия" class="place__image">
                 <div class="place__paragraphs">
@@ -154,7 +154,8 @@
             <h2 class="content-title">В глубины Земли и в дальний космос</h2>
             <p class="content-subtitle">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные исследования</p>
             <div class="video__container">
-                <div class="video__item video__item_kamchatka">
+                <a href="#" class="video__link">
+                <div class="video__item video__item_type_rect video__item_foto_kamchatka">
                     <div class="video__item-play"></div>
                     <div class="video__description">
                         <p class="video__duration">6:30</p>
@@ -162,8 +163,10 @@
                         <p class="video__subtitle">Director: Pavel Karykhalin</p>
                     </div>
                 </div>
+                </a>
 
-                <div class="video__item video__item_observatory">
+                <a href="#" class="video__link">
+                <div class="video__item video__item_type_rect video__item_foto_observatory">
                     <div class="video__item-play"></div>
                     <div class="video__description">
                         <p class="video__duration">24:45</p>
@@ -171,6 +174,8 @@
                         <p class="video__subtitle">Director: Alexander Khudokon</p>
                     </div>
                 </div>
+                </a>
+
             </div>
         </section>
 
@@ -179,44 +184,49 @@
             <p class="content-subtitle">Природа и люди вдохновили их работы, удостоенные наград на международных конкурсах</p>
             <div class="comments__container">
                 <div class="comments__item">
-                    <div class="comments__image comments__image_viktor"></div>
-                    <p class="comments__quote">«Если вам кажется, что в России ничего не происходит, то просто выгляньте “наружу”…»</p>
+                    <img src="images/viktor.png" alt="Виктор" class="comments__image">
+                    <blockquote class="comments__quote">«Если вам кажется, что в России ничего не происходит, то просто выгляньте “наружу”…»</blockquote>
                     <p class="comments__author">Виктор Лягушкин</p>
                 </div>
 
                 <div class="comments__item">
-                    <div class="comments__image comments__image_ivan"></div>
-                    <p class="comments__quote">«Если в город едут туристы — неважно за чем они туда едут: за шамбалой или
+                    <img src="images/ivan.png" alt="Иван" class="comments__image">
+                    <blockquote class="comments__quote">«Если в город едут туристы — неважно за чем они туда едут: за шамбалой или
                         фрески Рублева искать, или на родину Тарковского — туристы обеспечивают любой город молодёжью,
-                        рабочими местами и в конечном счёте наполняют его жизнью.»</p>
+                        рабочими местами и в конечном счёте наполняют его жизнью.»</blockquote>
                     <p class="comments__author">Иван Хафизов</p>
                 </div>
 
                 <div class="comments__item">
-                    <div class="comments__image comments__image_sergay"></div>
-                    <p class="comments__quote">«Ты приезжаешь, и люди рассказывают тебе, как им плохо.
-                        А когда ты покажешь, как им плохо, то ты сволочь и всё очернил.»</p>
+                    <img src="images/sergay.png" alt="Сергей" class="comments__image">
+                    <blockquote class="comments__quote">«Ты приезжаешь, и люди рассказывают тебе, как им плохо.
+                        А когда ты покажешь, как им плохо, то ты сволочь и всё очернил.»</blockquote>
                     <p class="comments__author">Сергей Максимишин</p>
                 </div>
             </div>
         </section>
 
         <section class="cover">
-            <div class="cover-bg">
-                <h2 class="cover-bg__title">До Байкала «на собаках»</h2>
-                <p class="cover-bg__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие
+            <a href="#" class="cover__link">
+            <div class="cover__bg cover__bg_type_rect">
+                <img src="images/cover-bg.png" alt="Поезда" class="cover__image">
+                <h2 class="cover__title">До Байкала «на собаках»</h2>
+                <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие
                     от столицы до Байкала на электричках.</p>
             </div>
+            </a>
         </section>
 
         <footer class="footer">
-            <ul class="footer__links">
-                <li><a href="https://yandex.ru/maps/" class="footer__link">Карты</a></li>
-                <li><a href="https://yandex.ru/pogoda/" class="footer__link">Погода</a></li>
-                <li><a href="https://rasp.yandex.ru/" class="footer__link">Расписание</a></li>
-                <li><a href="https://calendar.yandex.ru/" class="footer__link">Календарь</a></li>
-                <li><a href="https://travel.yandex.ru" class="footer__link">Путешествия</a></li>
-            </ul>
+            <nav class="footer__navbar">
+                <ul class="footer__links">
+                    <li><a href="https://yandex.ru/maps/" class="footer__link" target="_blank">Карты</a></li>
+                    <li><a href="https://yandex.ru/pogoda/" class="footer__link" target="_blank">Погода</a></li>
+                    <li><a href="https://rasp.yandex.ru/" class="footer__link" target="_blank">Расписание</a></li>
+                    <li><a href="https://calendar.yandex.ru/" class="footer__link" target="_blank">Календарь</a></li>
+                    <li><a href="https://travel.yandex.ru" class="footer__link" target="_blank">Путешествия</a></li>
+                </ul>
+            </nav>
             <p class="footer__copy">&copy; 2019. Лобанов Николай</p>
         </footer>
     </div>

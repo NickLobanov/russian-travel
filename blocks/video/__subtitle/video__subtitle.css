@@ -10,3 +10,10 @@
         line-height: 15px;
     }
 }
+
+@media screen and (max-width: 470px) {
+    .video__subtitle {
+        font-size: 10px;
+        line-height: 11px;
+    }
+}

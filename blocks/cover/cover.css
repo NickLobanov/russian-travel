@@ -1,8 +1,19 @@
+@import url(__title/cover__title.css);
+@import url(__subtitle/cover__subtitle.css);
+@import url(__link/cover__link.css);
+@import url(__bg/cover__bg.css);
+@import url(__image/cover__image.css);
+
 .cover {
     position: relative;
     margin-bottom: 160px;
 }
 
+@media screen and (max-width: 768px) {
+    .cover {
+        margin-bottom: 102px;
+    }
+}
 
 @media screen and (max-width: 375px) {
     .cover {

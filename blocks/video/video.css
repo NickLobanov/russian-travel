@@ -1,5 +1,6 @@
 @import url(__title/video__title.css);
 @import url(__subtitle/video__subtitle.css);
+@import url(__link/video__link.css);
 @import url(__item/video__item.css);
 @import url(__item-play/video__item-play.css);
 @import url(__duration/video__duration.css);

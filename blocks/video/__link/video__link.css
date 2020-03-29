@@ -1,0 +1,12 @@
+.video__link {
+    display: block;
+    width: 49.5%;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 375px) {
+    .video__link {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

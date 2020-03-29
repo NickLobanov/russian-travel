@@ -16,3 +16,26 @@
         margin-bottom: 8px;
     }
 }
+
+@media screen and (max-width: 515px) {
+    .video__duration {
+        margin-bottom: 4px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .video__duration {
+        margin-bottom: 4px;
+        font-size: 8px;
+        line-height: 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .video__duration {
+        font-size: 12px;
+        line-height: 13px;
+        letter-spacing: 0.3em;
+        margin-bottom: 8px;
+    }
+}

@@ -7,7 +7,7 @@
 @media screen and (max-width: 768px) {
     .comments__container {
         flex-direction: column;
-        width: 50%;
+        width: 52%;
         margin: 0 auto;
         align-items: center;
     }
