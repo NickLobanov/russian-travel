@@ -8,7 +8,6 @@
 
 .place {
     width: 100%;
-    min-height: 653px;
     display: flex;
     flex-wrap: wrap;
     color: #ffffff;

@@ -1,4 +1,4 @@
-.cover__bg_type_rect::before {
+.cover__link_type_rect::before {
     content: ' ';
     position: absolute;
     top: 0;
@@ -9,7 +9,7 @@
     opacity: 0.3;
     border-radius: 5px;
 }
-.cover__bg_type_rect:hover::before {
+.cover__link_type_rect:hover::before {
     opacity: 0.8;
     transition: 1s linear;
 }

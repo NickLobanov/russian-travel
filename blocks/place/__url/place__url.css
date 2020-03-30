@@ -10,9 +10,9 @@
     transition: 1s linear;
 }
 
-@media screen and (max-width: 406px) {
+@media screen and (max-width: 491px) {
     .place__url {
-        font-size: 15px;
+        font-size: 13px;
         line-height: 27px;
     }
 }

@@ -1,5 +1,5 @@
-@import url(_foto_kamchatka/video__item_foto_kamchatka.css);
-@import url(_foto_observatory/video__item_foto_observatory.css);
+@import url(_foto/video__item_foto_kamchatka.css);
+@import url(_foto/video__item_foto_observatory.css);
 @import url(_type_rect/video__item_type_rect.css);
 
 .video__item {
@@ -13,16 +13,3 @@
 }
 
 
-@media screen and (max-width: 1440px) {
-    .video__item {
-        height: 49vmin;
-    }
-}
-
-
-@media screen and (max-width: 375px) {
-    .video__item {
-        width: 100%;
-        height: 60vmin;
-    }
-}

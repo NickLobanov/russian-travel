@@ -41,6 +41,14 @@
     }
 }
 
+@media screen and (max-width: 475px) {
+    .cover__subtitle {
+        width: 75%;
+        font-size: 16px;
+        right: 14%;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .cover__subtitle {
         font-size: 14px;
