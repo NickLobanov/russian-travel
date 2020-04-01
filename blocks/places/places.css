@@ -8,20 +8,23 @@
 @media screen and (max-width: 1150px) {
     .places {
         width: 90%;
-        margin: 0 auto;
     }
 }
 
 @media screen and (max-width: 768px) {
     .places {
         width: 93%;
-        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .places {
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 375px) {
     .places {
         width: 100%;
-        margin: 0 auto;
     }
 }

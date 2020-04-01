@@ -27,7 +27,6 @@
 @media screen and (max-width: 375px) {
     .comments {
         width: 91%;
-        
-        margin-bottom: 102px;
+        margin-bottom: 64px;
     }
 }

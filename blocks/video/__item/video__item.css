@@ -12,4 +12,23 @@
     color: #ffffff;
 }
 
+@media screen and (max-width: 650px) {
+    .video__item {
+        width: 85%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .video__item {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .video__item {
+        width: 100%;
+    }
+}
+
 

@@ -33,19 +33,11 @@
 @media screen and (max-width: 585px) {
     .lead__title {
         width: 93%;
-        font-size: 4em;
-        line-height: 93px;
-    }
-}
-
-@media screen and (max-width: 585px) {
-    .lead__title {
-        width: 93%;
         font-size: 3em;
-        line-height: 93px;
+        line-height: 65px;
+        margin-bottom: 20px;
     }
 }
-
 
 
 @media screen and (max-width: 375px) {

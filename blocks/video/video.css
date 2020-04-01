@@ -28,6 +28,12 @@
     }
 }
 
+@media screen and (max-width: 650px) {
+    .video {
+        margin-bottom: 64px;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .video {
         margin-bottom: 64px;

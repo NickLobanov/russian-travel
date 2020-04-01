@@ -22,9 +22,9 @@
     }
 }
 
-@media screen and (max-width: 515px) {
+@media screen and (max-width: 650px) {
     .video__title {
-        font-size: 8px;
+        font-size: 24px;
         line-height: 26px;
         margin-bottom: 12px;
     }

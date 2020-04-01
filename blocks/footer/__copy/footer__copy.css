@@ -10,19 +10,7 @@
     }
 }
 
-@media screen and (max-width: 510px) {
-    .footer__copy {
-        font-size: 8px;
-    }
-}
-
-@media screen and (max-width: 429px) {
-    .footer__copy {
-        font-size: 6px;
-    }
-}
-
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 670px) {
     .footer__copy {
         width: 100%;
         font-size: 14px;

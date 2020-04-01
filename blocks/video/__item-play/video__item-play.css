@@ -11,21 +11,15 @@
 }
 
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 650px) {
     .video__item-play {
-        margin-top: 15px;
-        margin-left: 15px;
+        margin-top: 30px;
+        margin-left: 30px;
+        width: 42px;
+        height: 42px;
     }
 }
 
-@media screen and (max-width: 470px) {
-    .video__item-play {
-        margin-top: 10px;
-        margin-left: 10px;
-        width: 23px;
-        height: 23px;
-    }
-}
 
 @media screen and (max-width: 375px) {
     .video__item-play {

@@ -4,7 +4,7 @@
     text-decoration: none;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 650px) {
     .video__link {
         width: 100%;
         margin-bottom: 10px;

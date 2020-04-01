@@ -7,16 +7,12 @@
     width: 100%
 }
 
-@media screen and (max-width: 406px) {
-    .footer__links {
-        justify-content: space-around;
-    }
-}
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 670px) {
     .footer__links {
         flex-direction: column;
         width: 100%;
         margin-bottom: 48px;
     }
 }
+

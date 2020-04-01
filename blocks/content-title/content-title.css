@@ -26,9 +26,16 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
+    .content-title { 
+        width: 99%;
+        margin-bottom: 16px;
+    }
+}
+
+
+@media screen and (max-width: 430px) {
     .content-title {
-        font-weight: 900;
         font-size: 32px;
         line-height: 35px;
         width: 100%;

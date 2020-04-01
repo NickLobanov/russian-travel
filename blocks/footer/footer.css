@@ -27,6 +27,13 @@
     }
 }
 
+@media screen and (max-width: 670px) {
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .footer {
         flex-direction: column;

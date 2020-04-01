@@ -43,57 +43,73 @@
 
 @media screen and (max-width: 768px) {
     .cover__title {
-        width: 70%;
-        top: 25%;
-        right: 15%;
-    }
-}
-
-@media screen and (max-width: 722px) {
-    .cover__title {
-        width: 78%;
-        top: 25%;
+        width: 74%;
+        top: 20%;
         right: 13%;
     }
 }
 
-@media screen and (max-width: 648px) {
-    .cover__title {
-        width: 83%;
-        top: 25%;
-        right: 8%;
-        font-size: 66px;
-        line-height: 68px;
-    }
-}
 
-@media screen and (max-width: 560px) {
-    .cover__title {
-        width: 90%;
-        top: 15%;
-        right: 8%;
-        font-size: 48px;
-        line-height: 68px;
-    }
-}
-
-@media screen and (max-width: 420px) {
-    .cover__title {
-        width: 100%;
-        top: 15%;
-        right: 0;
-        font-size: 48px;
-        line-height: 68px;
-    }
-}
-
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 685px) {
     .cover__title {
         width: 72%;
-        font-size: 32px;
-        line-height: 35px;
+        top: 19%;
+        right: 14%;
+        font-size: 62px;
+        line-height: 68px;
+    }
+}
+
+@media screen and (max-width: 605px) {
+    .cover__title {
+        width: 72%;
         top: 30%;
-        right: 13%;
+        right: 14%;
+        font-size: 56px;
+        line-height: 55px;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    .cover__title {
+        width: 82%;
+        top: 30%;
+        right: 9%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cover__title {
+        width: 84%;
+        top: 25%;
+        right: 8%;
+        font-size: 51px;
+        line-height: 51px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .cover__title {
+        font-size: 45px;
+        line-height: 45px;
+    }
+}
+
+
+@media screen and (max-width: 388px) {
+    .cover__title {
+        width: 82%;
+        font-size: 40px;
+        line-height: 40px;
+        top: 25%;
+        right: 10%;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .cover__title {
+        width: 90%;
+        right: 6%;
     }
 }
 

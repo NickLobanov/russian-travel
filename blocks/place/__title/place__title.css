@@ -7,9 +7,14 @@
     margin-bottom: 60px;
 }
 
+@media screen and (max-width: 1024px) {
+    .place__title {
+        font-size: 60px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .place__title {
-        font-weight: 900;
         font-size: 42px;
         line-height: 46px;
         width: 45%;
@@ -17,28 +22,19 @@
     }
 }
 
-@media screen and (max-width: 537px) {
-    .place__title {
-        width: 40%;
-        font-size: 32px;
-        line-height: 36px;
-    }
-}
 
-@media screen and (max-width: 406px) {
+@media screen and (max-width: 600px) {
     .place__title {
-        width: 36%;
-        font-size: 32px;
-        line-height: 36px;
+        width: 91%;
+        margin-left: 4.5%;
+        margin-bottom: 32px;
+        margin-right: 0;
     }
 }
 
 @media screen and (max-width: 375px) {
-    .place__title {
-        width: 91%;
-        margin-left: 4.5%;
+    .place__title { 
         font-size: 32px;
         line-height: 35px;
-        margin-bottom: 32px;
     }
 }

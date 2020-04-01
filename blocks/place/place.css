@@ -31,7 +31,7 @@
 }
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
     .place {
         margin: 0;
         margin-bottom: 48px;

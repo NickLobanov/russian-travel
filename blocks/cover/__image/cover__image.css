@@ -1,21 +1,34 @@
 .cover__image {
-    width: 100%;
+    width: auto;
+    margin: 0 -100px;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__image {
+        height: 562px;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .cover__image {
-        height: 70vh;
+        height: 500px;
     }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 650px) {
     .cover__image {
-        height: 45vh;
+        height: 350px;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     .cover__image {
-        height: 40vh;
+        height: 272px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__image {
+        height: 216px;
     }
 }
